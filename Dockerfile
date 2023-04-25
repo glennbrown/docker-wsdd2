@@ -15,4 +15,4 @@ RUN curl -LO https://github.com/Netgear/wsdd2/archive/refs/tags/${WSDD2_VERSION}
     make all && \
     checkinstall -Dy --install=no --nodoc && \
     mkdir /build && \
-    cp *.deb /build/
+    cp *.deb /build/wsdd2-from-source.deb
